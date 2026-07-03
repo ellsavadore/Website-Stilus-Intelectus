@@ -3,7 +3,7 @@ import { Phone, Mail, Clock, ArrowRight } from 'lucide-react';
 
 export default function ContactCTA() {
   const ref = useScrollReveal({ y: 30, duration: 0.8, stagger: 0.15 });
-  const whatsappUrl = 'https://wa.me/62855366011';
+  const whatsappUrl = 'https://wa.me/6285536601150';
 
   return (
     <section id="contact" ref={ref} className="relative min-h-screen overflow-hidden">
@@ -38,7 +38,7 @@ export default function ContactCTA() {
             <div data-reveal className="space-y-5">
               <div className="flex items-center gap-4">
                 <Phone className="w-5 h-5 text-stilus-muted" />
-                <span className="font-body text-[16px] text-stilus-soft">+62 855-3660-1150</span>
+                <span className="font-body text-[16px] text-stilus-soft">085536601150</span>
               </div>
               <div className="flex items-center gap-4">
                 <Mail className="w-5 h-5 text-stilus-muted" />
@@ -53,33 +53,33 @@ export default function ContactCTA() {
 
           {/* Right - WhatsApp CTA */}
           <div data-reveal>
-            <div className="bg-[rgba(18,18,18,0.85)] backdrop-blur-xl border border-white/[0.12] rounded-2xl p-10 text-center space-y-6">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-stilus-crimson/10 text-stilus-crimson">
+            <div className="bg-[rgba(12,12,12,0.92)] backdrop-blur-2xl border border-white/[0.1] rounded-3xl p-10 text-center space-y-6 shadow-[0_30px_90px_rgba(0,0,0,0.35)]">
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-stilus-crimson/10 text-stilus-crimson shadow-[0_8px_30px_rgba(171,56,86,0.18)]">
                 <ArrowRight className="w-7 h-7" />
               </div>
               <h3 className="font-display text-[28px] font-medium text-stilus-white">
                 Hubungi Kami lewat WhatsApp
               </h3>
-              <p className="font-body text-[16px] text-stilus-gray leading-[1.7]">
+              <p className="font-body text-[16px] text-stilus-gray leading-[1.8] max-w-[520px] mx-auto">
                 Klik tombol di bawah untuk memulai obrolan langsung dengan tim Stilus Intellectus. Kami akan segera menanggapi kebutuhan konsultasi akademik Anda.
               </p>
               <a
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 w-full font-body text-[15px] font-semibold bg-stilus-crimson text-stilus-white px-6 py-4 rounded-full hover:bg-stilus-crimson-hover transition-colors"
+                className="inline-flex items-center justify-center gap-2 w-full font-body text-[15px] font-semibold bg-gradient-to-r from-stilus-crimson via-stilus-crimson/95 to-stilus-crimson-hover text-white px-6 py-4 rounded-full shadow-[0_24px_64px_rgba(171,56,86,0.28)] ring-1 ring-white/10 transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_34px_90px_rgba(171,56,86,0.32)]"
               >
                 Buka WhatsApp
                 <ArrowRight className="w-4 h-4" />
               </a>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <div className="rounded-2xl border border-white/[0.08] bg-stilus-black/70 p-5 text-left">
-                  <p className="font-body text-[13px] text-stilus-muted uppercase tracking-[1px] mb-2">WhatsApp</p>
-                  <p className="font-body text-[15px] text-stilus-white">+62 855-3660-1150</p>
+                <div className="rounded-3xl border border-white/[0.08] bg-white/5 p-6 text-left shadow-[inset_0_0_0_1px_rgba(255,255,255,0.05)]">
+                  <p className="font-body text-[13px] text-stilus-muted uppercase tracking-[1px] mb-3">WhatsApp</p>
+                  <p className="font-body text-[15px] text-stilus-white">085536601150</p>
                 </div>
-                <div className="rounded-2xl border border-white/[0.08] bg-stilus-black/70 p-5 text-left">
-                  <p className="font-body text-[13px] text-stilus-muted uppercase tracking-[1px] mb-2">Email</p>
-                  <p className="font-body text-[15px] text-stilus-white">salmanalhidamkara666@gmail.com</p>
+                <div className="rounded-3xl border border-white/[0.08] bg-white/5 p-6 text-left shadow-[inset_0_0_0_1px_rgba(255,255,255,0.05)]">
+                  <p className="font-body text-[13px] text-stilus-muted uppercase tracking-[1px] mb-3">Email</p>
+                  <p className="font-body text-[14px] text-stilus-white break-words whitespace-normal">salmanalhidamkara666@gmail.com</p>
                 </div>
               </div>
             </div>

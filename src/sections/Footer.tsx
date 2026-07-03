@@ -54,12 +54,12 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://wa.me/62855366011"
+                  href="https://wa.me/6285536601150"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-body text-[15px] text-stilus-gray hover:text-stilus-white transition-colors"
                 >
-                  WhatsApp: +62 855-3660-1150
+                  WhatsApp: 085536601150
                 </a>
               </li>
               <li className="font-body text-[15px] text-stilus-gray">Email: salmanalhidamkara666@gmail.com</li>

@@ -107,10 +107,10 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4 mb-8">
               <a
-                href="https://wa.me/62855366011"
+                href="https://wa.me/6285536601150"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hero-cta opacity-0 font-body text-[15px] font-semibold bg-stilus-crimson text-stilus-white px-8 py-4 rounded-full hover:bg-stilus-crimson-hover transition-all duration-200 flex items-center gap-2"
+                className="hero-cta opacity-0 font-body text-[15px] font-semibold bg-gradient-to-r from-stilus-crimson via-stilus-crimson/95 to-stilus-crimson-hover text-white px-8 py-4 rounded-full shadow-[0_24px_72px_rgba(171,56,86,0.22)] ring-1 ring-white/10 transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_32px_100px_rgba(171,56,86,0.28)] flex items-center gap-2"
               >
                 Mulai Konsultasi Riset
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
