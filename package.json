@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "vercel-build": "node -v && npm -v && npm install --no-audit --no-fund && npm run build",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "NODE_ENV=production node dist/boot.js",
@@ -113,4 +114,9 @@
     "vite": "^7.2.4",
     "vitest": "^4.0.16"
   }
+  ,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "npm@11"
 }
