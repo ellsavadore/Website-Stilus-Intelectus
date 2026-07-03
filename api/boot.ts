@@ -24,7 +24,11 @@ app.all("/api/*", (c) => c.json({ error: "Not Found" }, 404));
 
 export default app;
 
-if (env.isProduction) {
+// Only start a standalone server and serve static files when running locally
+// (not on serverless platforms like Vercel). On Vercel, static assets are
+// served by the platform's static builder and functions should only handle
+// `/api/*` routes.
+if (!env.isProduction) {
   const { serve } = await import("@hono/node-server");
   const { serveStaticFiles } = await import("./lib/vite");
   serveStaticFiles(app);
