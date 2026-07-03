@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "vercel-build": "node -v && npm -v && npm install --no-audit --no-fund && npm run build",
+    "vercel-build": "node -v && pnpm -v && pnpm install --frozen-lockfile --prefer-offline && pnpm run build",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "NODE_ENV=production node dist/boot.js",
@@ -118,5 +118,5 @@
   "engines": {
     "node": ">=20.0.0"
   },
-  "packageManager": "npm@11"
+  "packageManager": "pnpm@8"
 }
